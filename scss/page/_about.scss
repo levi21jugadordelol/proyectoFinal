@@ -1,0 +1,87 @@
+.main_about{
+  
+ .portada_main{
+  height: 1200px;
+ 
+  .imagen_portada{
+    background-image: url(/assets/portadaAbout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+    
+  }
+  .gerente{
+    background-color: black;
+    
+    .container_gerente{
+      background-color:$colorFontClaro;
+      height: 600px;
+      width: 900px;
+      position: relative;
+      top: -100px;
+      .izquierda_gerente{
+        p{
+          color: $colorFontOscuro;
+          font-size: .92rem;
+          padding: 1.5rem;
+        }
+        .comillas{
+          font-weight: 600;
+        }
+      }
+      .derecha_gerente{
+        
+          background-image: url(/assets/gerenteAbout.jpg);
+          background-position:-200px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        
+      }
+    }
+  }
+ } 
+.team_about{
+  height: 650px;
+  .foto_team{
+    background-image: url(/assets/teamAbout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+  .lista{
+    margin-top: 80px;
+    height: 500px;
+  
+  }
+
+}
+
+.meet{
+  padding-top: 80px;
+  padding-bottom: 150px;
+    .imagen_team {
+        height: 450px;
+        width: 500px;
+        padding: 10px;
+    
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        .info_team{
+          height: 100px;
+          background-color: rgb(213, 213, 213);
+        }
+      }
+  
+ 
+}
+
+}

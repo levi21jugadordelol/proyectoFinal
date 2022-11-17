@@ -1,0 +1,76 @@
+.main_precios{
+  height: 1450px;
+  .portada_precios{
+    background-image: url(/assets/portadaPrecio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    .info_precios{
+      width: 40%;
+      padding-left: 120px;
+      h2{
+        padding-top: 20px;
+        font-size: 55px;
+      }
+      p{
+        padding-top: 50px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .precios{
+    height: 600px;
+    .precio{
+      width: 22%;
+      padding: 10px;
+      h3{
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      p{
+        padding-left: 10px;
+      }
+      .titulo{
+        height: 90px;
+      }
+    }
+    .tabla{
+      margin-top: 70px;
+      height: 700px;
+      background-color: rgb(225, 225, 225);
+      border-radius: .8%;
+      .container-comenzemos{
+        padding-top: 80px;
+        height: 30%;
+        
+        .comenzemos {
+            width: 80%;
+            background-color: rgb(245, 243, 243);
+            box-shadow: 5px 10px 20px;
+            position: relative;
+            a{
+              position: absolute;
+              bottom: 0;
+              margin-bottom: 10px;
+              margin-left: 10px;
+              color: $colorFontOscuro;
+              font-size: 1rem;
+            }
+        
+          }
+      }
+            &:hover {
+              background: rgba(36, 35, 35, 0.822);
+              color: #f1f1f2;
+              transition: 0.5s all;
+              transform: scale(1.07);
+              cursor: pointer;
+            }
+      
+    }
+           
+
+  }
+        
+}

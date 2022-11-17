@@ -1,0 +1,286 @@
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  border: none; }
+
+.padre_cabezera .cabezera {
+  padding-top: 60px; }
+  .padre_cabezera .cabezera p {
+    padding-top: 40px;
+    justify-content: center; }
+  .padre_cabezera .cabezera .redes_cabezera {
+    margin-top: 50px; }
+    .padre_cabezera .cabezera .redes_cabezera ul li a {
+      color: #1e1d1d; }
+    .padre_cabezera .cabezera .redes_cabezera ul li :hover {
+      color: #fff7f7;
+      padding: 6.5px;
+      border-radius: 30px;
+      background-color: #1e1d1d; }
+
+.pie {
+  background-color: #181616;
+  height: 250px;
+  width: 100vw; }
+  .pie .navigate {
+    margin-top: 50px; }
+    .pie .navigate h4 {
+      color: #fff7f7; }
+    .pie .navigate li a {
+      color: #fff7f7; }
+  .pie .centro {
+    margin-top: 50px; }
+    .pie .centro h3 {
+      color: #fff7f7; }
+    .pie .centro p {
+      color: #fff7f7; }
+  .pie .creditos {
+    margin-top: 50px; }
+    .pie .creditos h4 {
+      color: #fff7f7; }
+    .pie .creditos p {
+      color: #fff7f7; }
+
+.main_index {
+  margin-top: 50px;
+  /********************galeria**************/ }
+  .main_index .portada_imagen {
+    background-image: url(/assets/portada.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+    width: 100vw;
+    display: flex; }
+    .main_index .portada_imagen .izquierda {
+      width: 50%;
+      padding-left: 70px; }
+      .main_index .portada_imagen .izquierda h3 {
+        padding-top: 100px;
+        color: #fff7f7;
+        font-size: 3rem; }
+      .main_index .portada_imagen .izquierda h1 {
+        color: #fff7f7;
+        line-height: 60px; }
+    .main_index .portada_imagen .derecha {
+      width: 50%;
+      padding-right: 110px;
+      position: relative; }
+      .main_index .portada_imagen .derecha .texto {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        top: 25%;
+        padding-right: 100px; }
+        .main_index .portada_imagen .derecha .texto .parrafo1 {
+          color: #fff7f7;
+          font-size: 1.3rem;
+          letter-spacing: 1.2px; }
+        .main_index .portada_imagen .derecha .texto .parrafo2 {
+          padding-top: 40px;
+          color: #fff7f7;
+          font-size: 0.9rem;
+          line-height: 30px;
+          letter-spacing: 1px; }
+  .main_index .container .opciones_container .containers {
+    margin-left: 20px;
+    color: #fff7f7;
+    margin-top: 50px; }
+  .main_index .container .opciones_container .imagen_container1 {
+    background-image: url(/assets/conocenos.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .main_index .container .opciones_container .imagen_container1 .container_uno h2 {
+      margin-top: 50px; }
+    .main_index .container .opciones_container .imagen_container1 .container_uno .flecha {
+      color: #fff7f7;
+      font-size: 3.5rem; }
+  .main_index .container .opciones_container .imagen_container2 {
+    background-image: url(/assets/servicios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; }
+    .main_index .container .opciones_container .imagen_container2 .container_dos h2 {
+      margin-top: 50px; }
+    .main_index .container .opciones_container .imagen_container2 .container_dos .flecha {
+      color: #fff7f7;
+      font-size: 3.5rem; }
+  .main_index .container .opciones_container .imagen_container3 {
+    background-image: url(/assets/portafolio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; }
+    .main_index .container .opciones_container .imagen_container3 .container_tres h2 {
+      margin-top: 50px; }
+    .main_index .container .opciones_container .imagen_container3 .container_tres .flecha {
+      color: #fff7f7;
+      font-size: 3.5rem; }
+  .main_index .container .follow {
+    margin-top: 100px; }
+    .main_index .container .follow p {
+      padding-top: 20px; }
+  .main_index .galeria {
+    height: 400px; }
+    .main_index .galeria .cuadro_galeria {
+      width: 18%;
+      height: 400px; }
+      .main_index .galeria .cuadro_galeria img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
+.main_about .portada_main {
+  height: 1200px; }
+  .main_about .portada_main .imagen_portada {
+    background-image: url(/assets/portadaAbout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100vw; }
+  .main_about .portada_main .gerente {
+    background-color: black; }
+    .main_about .portada_main .gerente .container_gerente {
+      background-color: #fff7f7;
+      height: 600px;
+      width: 900px;
+      position: relative;
+      top: -100px; }
+      .main_about .portada_main .gerente .container_gerente .izquierda_gerente p {
+        color: #1e1d1d;
+        font-size: .92rem;
+        padding: 1.5rem; }
+      .main_about .portada_main .gerente .container_gerente .izquierda_gerente .comillas {
+        font-weight: 600; }
+      .main_about .portada_main .gerente .container_gerente .derecha_gerente {
+        background-image: url(/assets/gerenteAbout.jpg);
+        background-position: -200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+
+.main_about .team_about {
+  height: 650px; }
+  .main_about .team_about .foto_team {
+    background-image: url(/assets/teamAbout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .main_about .team_about .lista {
+    margin-top: 80px;
+    height: 500px; }
+
+.main_about .meet {
+  padding-top: 80px;
+  padding-bottom: 150px; }
+  .main_about .meet .imagen_team {
+    height: 450px;
+    width: 500px;
+    padding: 10px; }
+    .main_about .meet .imagen_team img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .main_about .meet .imagen_team .info_team {
+      height: 100px;
+      background-color: #d5d5d5; }
+
+.main_portafolio .portada_portafolio {
+  background-image: url(/assets/portafolioFondo.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main_portafolio .grids_portafolio .galeria_portafolio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 160px;
+  grid-template-areas: "imagen_1 imagen_1 imagen_2 imagen_3" "imagen_1 imagen_1 imagen_4 imagen_4" "imagen_5 imagen_6 imagen_7 imagen_7" "imagen_8 imagen_8 imagen_7 imagen_7";
+  gap: .5em; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_1 {
+    grid-area: imagen_1; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_2 {
+    grid-area: imagen_2; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_3 {
+    grid-area: imagen_3; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_4 {
+    grid-area: imagen_4; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_5 {
+    grid-area: imagen_5; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_6 {
+    grid-area: imagen_6; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_7 {
+    grid-area: imagen_7; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen_8 {
+    grid-area: imagen_8; }
+  .main_portafolio .grids_portafolio .galeria_portafolio .imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.main_precios {
+  height: 1450px; }
+  .main_precios .portada_precios {
+    background-image: url(/assets/portadaPrecio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; }
+    .main_precios .portada_precios .info_precios {
+      width: 40%;
+      padding-left: 120px; }
+      .main_precios .portada_precios .info_precios h2 {
+        padding-top: 20px;
+        font-size: 55px; }
+      .main_precios .portada_precios .info_precios p {
+        padding-top: 50px;
+        font-size: 1.2rem; }
+  .main_precios .precios {
+    height: 600px; }
+    .main_precios .precios .precio {
+      width: 22%;
+      padding: 10px; }
+      .main_precios .precios .precio h3 {
+        padding-left: 20px;
+        padding-top: 20px; }
+      .main_precios .precios .precio p {
+        padding-left: 10px; }
+      .main_precios .precios .precio .titulo {
+        height: 90px; }
+    .main_precios .precios .tabla {
+      margin-top: 70px;
+      height: 700px;
+      background-color: #e1e1e1;
+      border-radius: .8%; }
+      .main_precios .precios .tabla .container-comenzemos {
+        padding-top: 80px;
+        height: 30%; }
+        .main_precios .precios .tabla .container-comenzemos .comenzemos {
+          width: 80%;
+          background-color: #f5f3f3;
+          box-shadow: 5px 10px 20px;
+          position: relative; }
+          .main_precios .precios .tabla .container-comenzemos .comenzemos a {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            color: #1e1d1d;
+            font-size: 1rem; }
+      .main_precios .precios .tabla:hover {
+        background: rgba(36, 35, 35, 0.822);
+        color: #f1f1f2;
+        transition: 0.5s all;
+        transform: scale(1.07);
+        cursor: pointer; }

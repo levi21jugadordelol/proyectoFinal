@@ -1,0 +1,65 @@
+.main_portafolio{
+  .portada_portafolio{
+      background-image: url(/assets/portafolioFondo.jpg);
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+  }
+  .grids_portafolio{
+        .galeria_portafolio {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 160px;
+            grid-template-areas:
+              "imagen_1 imagen_1 imagen_2 imagen_3"
+              "imagen_1 imagen_1 imagen_4 imagen_4"
+              "imagen_5 imagen_6 imagen_7 imagen_7"
+              "imagen_8 imagen_8 imagen_7 imagen_7"
+              ;
+              gap: .5em;
+        
+            .imagen_1 {
+              grid-area: imagen_1;
+            }
+        
+            .imagen_2 {
+              grid-area: imagen_2;
+            }
+        
+            .imagen_3 {
+              grid-area: imagen_3;
+            }
+        
+            .imagen_4 {
+              grid-area: imagen_4;
+            }
+        
+            .imagen_5 {
+              grid-area: imagen_5;
+            }
+        
+            .imagen_6 {
+              grid-area: imagen_6;
+            }
+        
+            .imagen_7 {
+              grid-area: imagen_7;
+            }
+        
+            .imagen_8 {
+              grid-area: imagen_8;
+            }
+            .imagen{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+
+          }
+  }
+
+  
+ 
+}
